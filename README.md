@@ -14,5 +14,4 @@ ircbot imports a home-made module, factor3.py, for one totally unnecessary funct
 
 I actually have a factor4.py, which seems to be a slight improvement to factor3.py, which I apparently wrote after the latest available ircbot version was made, so I'll include that. You should probably rename factor4.py to factor3.py or have ircbot import and use factor4 instead of factor3. I'm not gonna do it because I'm too lazy to test it.
 
-
-
+I think the function to convert a number from one base to another may have the relatively unique property of being able to convert the decimal portion of a number to/from any base as well, using notation to indicate repeating decimals. I'm not sure if it has this, it's just something I tend to implement when I implement base conversion.
